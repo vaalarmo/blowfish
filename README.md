@@ -9,13 +9,15 @@ y probar sus funciones en http://sladex.org/blowfish.js/
 
 # Forma de uso
 
-- encrypt
-
+- Encrypt
+``` 
 	blowfish.encrypt('textoACifrar', 'clave', {cipherMode: 0, outputType: 0});
+``` 
 	
-- decrypt
-
+- Decrypt
+``` 
 	blowfish.encrypt('textoACifrar', 'clave', {cipherMode: 0, outputType: 0});
+``` 
 	
 - cipherMode
 ``` 
