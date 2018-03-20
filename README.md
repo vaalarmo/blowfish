@@ -10,12 +10,15 @@ y probar sus funciones en http://sladex.org/blowfish.js/
 # Forma de uso
 
 - encrypt
+
 	blowfish.encrypt('textoACifrar', 'clave', {cipherMode: 0, outputType: 0});
 	
 - decrypt
+
 	blowfish.encrypt('textoACifrar', 'clave', {cipherMode: 0, outputType: 0});
 	
-cipherMode
+- cipherMode
+
     0 = ECB
     1 = CBC
     2 = PCBC
@@ -23,7 +26,8 @@ cipherMode
     4 = OFB
     5 = CTR
 
-outputType
+- outputType
+
     0 = Base64
     1 = Hex
     2 = String
