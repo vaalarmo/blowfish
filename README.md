@@ -9,7 +9,9 @@ y probar sus funciones en http://sladex.org/blowfish.js/
 
 # Forma de uso
 
-var blowfish = require("sladex-blowfish");
+``` 
+	var blowfish = require("sladex-blowfish");
+``` 
 
 - Encrypt
 ``` 
