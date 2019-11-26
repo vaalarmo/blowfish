@@ -9,6 +9,8 @@ y probar sus funciones en http://sladex.org/blowfish.js/
 
 # Forma de uso
 
+var blowfish = require("sladex-blowfish");
+
 - Encrypt
 ``` 
 	blowfish.encrypt('textoACifrar', 'clave', {cipherMode: 0, outputType: 0});
