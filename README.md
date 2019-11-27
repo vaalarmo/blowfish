@@ -9,7 +9,7 @@ y probar sus funciones en http://sladex.org/blowfish.js/
 
 # Instalación
 
-Usar el siguiente comando desde la consola 
+Ejecuta el siguiente comando desde la consola 
 ``` 
 	npm install sladex-blowfish
 ``` 
