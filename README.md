@@ -9,8 +9,13 @@ y probar sus funciones en http://sladex.org/blowfish.js/
 
 # Forma de uso
 
+Para node
 ``` 
 	var blowfish = require("sladex-blowfish");
+``` 
+Para angular 
+``` 
+	import { blowfish } from 'sladex-blowfish';
 ``` 
 
 - Encrypt
