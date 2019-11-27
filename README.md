@@ -20,7 +20,7 @@ y probar sus funciones en http://sladex.org/blowfish.js/
 	
 - Decrypt
 ``` 
-	blowfish.encrypt('textoACifrar', 'clave', {cipherMode: 0, outputType: 0});
+	blowfish.decrypt('textoADescifrar', 'clave', {cipherMode: 0, outputType: 0});
 ``` 
 	
 - cipherMode
