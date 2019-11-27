@@ -24,7 +24,7 @@ Luego, para importar en tu proyecto, usa
 
 # Configuración en Angular
 
-Realiza el importa a tu proyecto con
+Realiza el import a tu proyecto con
 ``` 
 	import { blowfish } from 'sladex-blowfish';
 ``` 
