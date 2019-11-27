@@ -7,17 +7,29 @@ Puedes revisar la versión original del paquete de node en https://www.npmjs.com
 y probar sus funciones en http://sladex.org/blowfish.js/
 
 
-# Forma de uso
+# Instalación
 
-Para node
+Usar el siguiente comando desde la consola 
+``` 
+	npm install sladex-blowfish
+``` 
+
+# Configuración en Node
+
+En el directorio 'node_modules' de tu aplicación, buscar la carpeta 'sladex-blowfish' y reemplazar el contenido con los archivos de este proyecto.
+Luego, para importar en tu proyecto, usa
 ``` 
 	var blowfish = require("sladex-blowfish");
 ``` 
-Para angular 
+
+# Configuración en Angular
+
+Realiza el importa a tu proyecto con
 ``` 
 	import { blowfish } from 'sladex-blowfish';
 ``` 
 
+# Forma de uso
 - Encrypt
 ``` 
 	blowfish.encrypt('textoAEncriptar', 'clave', {cipherMode: 0, outputType: 0});
