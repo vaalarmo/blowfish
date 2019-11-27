@@ -15,12 +15,12 @@ y probar sus funciones en http://sladex.org/blowfish.js/
 
 - Encrypt
 ``` 
-	blowfish.encrypt('textoACifrar', 'clave', {cipherMode: 0, outputType: 0});
+	blowfish.encrypt('textoAEncriptar', 'clave', {cipherMode: 0, outputType: 0});
 ``` 
 	
 - Decrypt
 ``` 
-	blowfish.decrypt('textoADescifrar', 'clave', {cipherMode: 0, outputType: 0});
+	blowfish.decrypt('textoADesencriptar', 'clave', {cipherMode: 0, outputType: 0});
 ``` 
 	
 - cipherMode
